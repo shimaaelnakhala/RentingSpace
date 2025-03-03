@@ -1,0 +1,9 @@
+.back{
+  margin-bottom: 10px;
+}
+.edit{
+  margin-bottom: 20px;
+}
+.parent ::placeholder{
+opacity: 0.7 !important;
+}

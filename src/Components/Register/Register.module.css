@@ -1,0 +1,111 @@
+.reg_img,.reg_form{
+    font-family: 'Cairo',sans-serif;
+}
+
+.reg_img h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.reg_img p{
+    color: rgba(103, 103, 122, 1);
+    font-size: 18px;
+    line-height: 23.7px;
+    width: 80%;
+}
+
+.reg_img p::first-letter{
+    text-transform: capitalize;
+}
+
+.reg_img img{
+    width: 60%;
+}
+
+.reg_form{
+    color: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 0 20px rgba(0, 25, 38, 0.15);
+    position: relative;
+}
+ 
+.reg_form::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(83, 127, 231, 0.13);
+    filter: blur(30px);
+    left: -35%;
+    top: -3%;
+}
+.reg_form::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(83, 127, 231, 0.13);
+    filter: blur(30px);
+    right: -35%;
+    bottom: -3%;
+}
+
+.reg_form form label{
+   font-size: 15px;
+   color: rgba(24, 24, 35, 1);
+
+}
+.reg_form form label:last-child{
+    font-size:12px;
+    color: rgba(24, 24, 35, 1);
+}
+
+.reg_form form input{
+    border: none;
+    border-radius:8px;
+    padding:0px, 12px;
+    background-color: rgba(242, 242, 242, 1);
+    font-size: 15px;
+}
+
+.reg_form form input::placeholder{
+    font-size: 14px;
+    color: rgba(115, 125, 127, 1);
+}
+.reg_form form input:focus{
+    box-shadow:0 0 0.2rem rgba(13,110,253);
+    outline-offset: 0;
+}
+
+.reg_form form input:focus::placeholder {
+    color: transparent; 
+  }
+
+  .link{
+    font-size: 14px;
+    color:rgba(24, 24, 35, 1);
+  }
+
+  .shad{
+    position: relative;
+    z-index: 9;
+  }
+  .union{
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: -11;
+    top: 0;
+  }
+
+  form .err{
+   color: #cc0000;
+   font-size: 11px;
+}
+  
+   

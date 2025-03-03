@@ -1,0 +1,33 @@
+.request{
+ border:1px solid rgba(167, 183, 184, 1); 
+ height: 80vh;
+ /* border-radius: 1%; */
+}
+.bi{
+  font-size: 40px;
+}
+.setting{
+  font-size: 130px;
+  color: rgba(83, 127, 231, 1);
+}
+.fa-cog{
+  margin-top: 25vh !important;
+}
+h3{
+  color: rgba(24, 24, 35, 1);
+  font-size: 28px;
+  margin-bottom: 20px !important;
+}
+
+.btnn{
+  width: 100px;
+}
+@media (min-width:320px) and (max-width:767px){
+
+  h3 {
+
+    font-size: 16px !important;
+    margin-bottom : 20px !important;
+    width: 50% !important;
+  }
+}

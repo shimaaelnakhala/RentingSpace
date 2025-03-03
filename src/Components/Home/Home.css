@@ -1,0 +1,59 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+}
+.top-co{
+  margin-top: 50px;
+}
+h4 { 
+  color: #111 !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.box{
+  border: 1px solid #888;
+  border-radius: 3%;
+}
+.description{
+  margin-left: 23px !important;
+
+}
+.description button{
+margin-left: 35%;
+width: 100%;
+  
+}
+.star .fa{
+  font-size: 18px;
+  padding-right: 3px;
+}
+
+.star i{
+color:rgba(255, 156, 39, 1);
+}
+.star{
+  display: flex;
+}
+.review{
+  opacity: 0.8;
+  font-size: 12px;
+}
+.star span {
+  display: flex;
+}
+.description p{
+  font-size: 13px !important;
+}
+.nearby{
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
+.boxing .rounded{
+  width: 100%;
+}
+

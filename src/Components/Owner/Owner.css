@@ -1,0 +1,35 @@
+
+
+.parent .ownerr button {
+  color: #737D7F;
+font-family: Cairo;
+font-size: 16px;
+font-weight: 400;
+text-transform: capitalize;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 200px;
+  right: 300px;
+}
+.logout button {
+margin-top: 20px !important;
+  border: 1px solid #EF3061;
+}
+.ownerr button:hover{
+  background-color: #737D7F;
+  color: aliceblue;
+}
+.logout span i{
+  padding-right: 2px;
+  font-size: 16px;
+}
+.logout span{
+
+  color: #EF3061 ;
+  font-weight: 500;
+}
+
+
+

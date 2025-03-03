@@ -1,0 +1,47 @@
+.carousel-control-prev-icon{
+  background-color: aliceblue;
+  border-radius: 20%;
+}
+.descrip .fa {
+  font-size:40px !important;
+  color:black !important;
+  background-color:white !important;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.descrip{
+  margin-top: 30px;
+}
+img{
+  height: 50vh;
+  max-width: 100% !important;
+  background-size: cover;
+}
+.table{
+  height: 100px;
+}
+.carousel-indicators button{
+top: 100% !important;
+  height: 6px !important;
+  background-color:#888 !important;
+}
+.des{
+  margin-top: 20px;
+}
+.carousel-indicators .active {
+  background-color: rgba(83, 127, 231, 1) !important;
+}
+.descrip .box{
+border: 1px solid rgba(167, 183, 184, 1) ;
+border-radius: 2% !important;  
+}
+tr:first-of-type {
+  color: rgba(83, 127, 231, 1);
+}
+th{
+  font-weight: 500;
+}
+.green{
+  color: rgba(82, 196, 26, 1);
+}

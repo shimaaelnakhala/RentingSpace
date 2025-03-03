@@ -1,0 +1,32 @@
+[
+  {  "type":"Educational space",
+    "title":"Gaza, Al Rimal neighborhood"
+  }
+  ,
+  {  "type":"Co-working Space",
+    "title":"London, United Kingdom"
+  },
+  {  "type":"Private office",
+    "title":"Gaza, Al Nasser street"
+  }
+  ,
+  {  "type":"Room",
+    "title":"Gaza, Al Nasser street"
+  },
+  {  "type":"Home",
+    "title":"Gaza,Rafah"
+  },
+  {  "type":"Land",
+    "title":"London, United Kingdom"
+  },
+  {  "type":"Co-working Space",
+  "title":"London, United Kingdom"
+  },
+  {  "type":"Private office",
+  "title":"Gaza, Al Nasser street"
+  },
+  {  "type":"Home",
+  "title":"Gaza,Rafah"
+  }
+  
+  ]

@@ -1,0 +1,97 @@
+
+.email , .phone{
+  color: #181823;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+}
+.img-prof{
+   display: flex;
+  align-items: center; 
+  top: 120px;
+
+}
+.img-prof img{
+  margin-right: 25px;
+}
+.img-prof p{
+  font-weight: 600;
+  font-size: 20px;
+}
+.email span,.phone span{
+margin-left: 10px;
+}
+ span{
+  font-style: normal;
+  line-height: normal;
+}
+.phone{
+  padding-right:20px; 
+}
+
+
+.parent .box{
+width: 334px;
+height: 370px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #A7B7B8;
+background: #FFF;
+margin-top: 30px;
+}
+.description{
+  position: relative;
+
+}
+h6{
+  color: #181823;
+  font-size: 20px !important;
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.price{
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  color: #537FE7;
+  font-family: Cairo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.card-text {
+  color: #181823;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 12px !important;
+  font-weight: 600;
+}
+
+.last-section {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-section .star {
+  width: 16px;
+  height: 16px;
+  color: #FF9C27;
+}
+
+.reviews-num {
+  color: #181823;
+  font-family: Cairo;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
